@@ -120,7 +120,7 @@ left: 295px;
 top: 220px;
 animation: fade-in duration timing-function delay iteration-count direction fill-mode;
 
-background: url(./stonkpics/learn_phone.png);
+background: url(./pages/stonkpics/pitch_phone.png);
 border-radius: 30px;
 -webkit-animation: fade-in-top 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-top 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -228,3 +228,53 @@ color: #94CFC1;
 }
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap');
 
+
+
+
+.missionbar
+{
+position: absolute;
+width: 1300px;
+height: 764px;
+left: 0px;
+top: 728px;
+
+background: #061210;
+}
+
+
+.missionhead
+{
+
+
+
+font-family: Coda;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #94CFC1;
+}
+
+.missioncontainter
+{
+  align-items: center;
+}
+.missionparagraph
+{
+ 
+  
+  font-family: Coda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+  
+  letter-spacing: 0.05em;
+  
+  color: #94CFC1;
+}

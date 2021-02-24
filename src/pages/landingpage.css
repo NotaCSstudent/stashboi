@@ -26,6 +26,70 @@ We will be using the background div to make sure it shows
 background: linear-gradient(180deg, #061210 4.69%, #0D2520 23.44%, #032D22 35.94%, #061210 92.71%);
 }
 
+
+.missionstatement
+{
+position: absolute;
+width: 285px;
+height: 112px;
+left: 541px;
+top: 463px;
+}
+
+
+.containerstasche
+{
+position: absolute;
+width: 60px;
+height: 36px;
+left: 198px;
+top: 15px;
+
+}
+
+
+.missiondetail
+{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: Coda;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #BCEADF;
+}
+
+
+
+
+.missionparagraph
+{
+ 
+  
+  font-family: Coda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+  
+  letter-spacing: 0.05em;
+  
+  color: #94CFC1;
+}
+
 .name
 {
 position: absolute;
@@ -75,7 +139,7 @@ left: 295px;
 top: 220px;
 animation: fade-in duration timing-function delay iteration-count direction fill-mode;
 
-background: url(./stonkpics/learn_phone.png);
+background: url(./stonkpics/pitch_phone.png);
 border-radius: 30px;
 -webkit-animation: fade-in-top 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-top 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -103,6 +167,59 @@ color: #94CFC1;
 
 
 
+.Retanglearoundphone
+{
+  position: absolute;
+width: 599px;
+height: 253px;
+left: 261px;
+top: 411px;
+
+background: rgba(59, 97, 88, 0.85);
+border: 0.25px solid #72A599;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+
+
+.informbutton
+{
+
+position: absolute;
+width: 170px;
+height: 45px;
+left: 599px;
+top: 575px;
+
+background: #09201B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.informme
+{
+  position: absolute;
+width: 136px;
+height: 17px;
+left: 616px;
+top: 589px;
+
+font-family: Coda;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #94CFC1;
+
+
+}
 
 @-webkit-keyframes fade-in-top {
   0% {
@@ -129,4 +246,6 @@ color: #94CFC1;
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap');
+
+
 
