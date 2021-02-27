@@ -18,13 +18,15 @@ We will be using the background div to make sure it shows
 .background
 {
   position: relative;
-  height: 100vh;/*minimum height*/
-  min-width: 100vh;/*minimum width*/
+  height: 1000vh;/*minimum height*/
+  min-width: 250vh;/*minimum width*/
   flex: 1;/*makes it nice and flexible*/
   display: flex;/*let the flex commence*/
+  
 
 background: linear-gradient(180deg, #061210 4.69%, #0D2520 23.44%, #032D22 35.94%, #061210 92.71%);
 }
+
 
 
 .missionstatement
@@ -45,6 +47,7 @@ height: 36px;
 left: 198px;
 top: 15px;
 
+background: url(./stonkpics/logo.png);
 }
 
 
@@ -120,7 +123,7 @@ left: 295px;
 top: 220px;
 animation: fade-in duration timing-function delay iteration-count direction fill-mode;
 
-background: url(./pages/stonkpics/pitch_phone.png);
+background: url(./stonkpics/pitch_phone.png);
 border-radius: 30px;
 -webkit-animation: fade-in-top 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-top 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -150,17 +153,24 @@ color: #94CFC1;
 
 .Retanglearoundphone
 {
-  position: absolute;
+position: relative;
+top: 400px;
 width: 599px;
 height: 253px;
 left: 261px;
-top: 411px;
+
 
 background: rgba(59, 97, 88, 0.85);
 border: 0.25px solid #72A599;
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
+
+
+
+
+
+
 }
 
 

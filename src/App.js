@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import React, { Component } from 'react'
 import { Router, Switch } from 'react-router';
+import {Redirect} from 'react-router-dom'
 import "./App.css"
 
 
@@ -48,6 +49,11 @@ export class Mission extends Component {
 
 
 export default class App extends Component {
+  redirect =  () =>  {
+    window.location = "http://www.google.com/"
+
+    
+  }
   render() {
     return (
       
@@ -55,8 +61,6 @@ export default class App extends Component {
         hello world
         <h1 class="name">Stonkstash</h1>
         <div class="containerstasche">
-          <img src="src/stonkpics/logo.png">
-          </img>
         
         
         
@@ -72,8 +76,9 @@ export default class App extends Component {
         
           </h1>
           <div class="missionstatement"><h1 class="missiondetail">Our mission is to help YOU use the free investing resources of today to your benefit rather than your detrimate.</h1></div>
-          
-          <button class="informbutton">
+          <form action="https://forms.gle/mVLDfhbBHsQyRTX6A">
+          <button class="informbutton" type="submit">
+           
             <font face="Coda"><font color="White"><font weight="1"><font align="Center">
               <font size="5">
                 <font color="94CFC1">
@@ -83,7 +88,7 @@ export default class App extends Component {
             </font>
 
              </font>
-              </font></font></button>
+              </font></font></button> </form>
               <Mission />
 
       </div>
